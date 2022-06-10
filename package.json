@@ -1,0 +1,23 @@
+{
+  "name": "zadania-tiny",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s21623/zadania-tiny.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/s21623/zadania-tiny/issues"
+  },
+  "homepage": "https://github.com/s21623/zadania-tiny#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "http": "0.0.1-security"
+  }
+}
