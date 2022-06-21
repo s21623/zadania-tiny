@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/ZadanieB.css">
+	<title>Formularz rejesteacji</title>
+</head>
+
+<body>
+	<section class="register-form container">
+		<div class="register-form-header">
+			<h2>Zarejestruj się na konkurs</h2>
+		</div>
+		<form class="register-form-content">
+			<div class="form-item form-item-name">
+				<label class="form-label">Imię i Nazwisko</label>
+				<input type="text" class="form-input form-required" required>
+			</div>
+			<div class="form-item form-item-from">
+				<label class="form-label">Skąd jesteś?</label>
+				<select name="from" class="form-input">
+					<option value="" disabled selected>Wybierz z listy</option>
+					<option value="PL">Polska</option>
+					<option value="GLOBAL">Reszta świata</option>
+				</select>
+			</div>
+			<div class="form-item form-item-email">
+				<label class="form-label">Email</label>
+				<input type="email" class="form-input form-required" required>
+			</div>
+			<div class="form-item form-item-pass">
+				<label class="form-label">Hasło do platformy z wynikami</label>
+				<input type="password" class="form-input form-required" required>
+			</div>
+			<div class="form-item form-item-email">
+				<label for="" class="form-label">Napisz coś o sobie :)</label>
+				<textarea class="form-msg" cols="40" rows="5"></textarea>
+			</div>
+			<div class="form-item form-item-from">
+				<input type="checkbox" name="statute" value="true">
+				<label for="statute">Mam więcej niż 16 lat</label>
+			</div>
+			<div class="form-item form-item-buttons">
+				<button class="btn btn-submit">Wyślij!</button>
+				<button class="btn btn-reset">Reset</button>
+			</div>
+		</form>
+	</section>
+</body>
+
+</html>

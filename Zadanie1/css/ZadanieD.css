@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #03082e;
+	color: #fff;
+}
+
+.page {
+	margin: 0 auto;
+	max-width: 1180px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banner img {
+	width: 100%;
+	border: 1px dotted #1328c7;
+}
+
+.articles {
+	margin: 2em 0;
+}
+
+.article {
+	margin: 1em;
+	border: 2px dotted #8513c7;
+	padding: 1.15em;
+	background: #0523cdae;
+}
+
+.article-title {
+	text-decoration: underline;
+	font-size: 21px;
+	padding-left: 15px;
+	margin-bottom: 0.75em;
+}
+
+.article-content p {
+	padding: 0.25em 0;
+}
+
+.article-content a {
+	color: #bbbbbb;
+	transition: color 0.5s;
+}
+
+.article-content a:hover {
+	color: #f865fd;
+	transition: color 0.5s;
+}
